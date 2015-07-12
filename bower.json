@@ -1,0 +1,16 @@
+{
+  "name": "laravel5-vue-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/velocibear/laravel5-vue-app",
+  "authors": [
+    "Chris <chris@chrisdjames.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

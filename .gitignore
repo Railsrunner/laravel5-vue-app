@@ -2,3 +2,4 @@
 .vagrant
 vendor
 Homestead.yaml
+bower_components

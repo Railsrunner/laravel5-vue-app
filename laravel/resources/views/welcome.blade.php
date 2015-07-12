@@ -29,12 +29,17 @@
             .title {
                 font-size: 96px;
             }
+            p {
+                font-size : 16px;
+                font-weight: bold;
+            }
         </style>
 
 <div class="container">
     <div class="content">
-        <div class="title">Laravel 5 and Vue.js</div>
+        <div class="title">Welcome!</div>
     </div>
+    <p id="poweredBy">@{{ text }}</p>
 </div>
 
 @stop
