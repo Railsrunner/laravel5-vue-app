@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant/laravel5-vue-app":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/laravel5-vue-app","hostpath":"/home/chris/Documents/laravel5-vue-app","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/chris/Documents/laravel5-vue-app","disabled":false}}}
