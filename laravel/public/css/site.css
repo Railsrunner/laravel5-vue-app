@@ -1,0 +1,26 @@
+/*Main Page CSS*/
+.main-container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-content {
+    text-align: center;
+    display: inline-block;
+}
+
+.main-title {
+    font-size: 48px;
+}
+.main-text {
+    font-size : 16px;
+    font-weight: bold;
+}
+
+/*Create New Leave Behind Page CSS*/
+
+.created-text {
+    font-weight: bold;
+    padding-top: 1em;
+}

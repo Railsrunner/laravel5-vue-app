@@ -1,45 +1,18 @@
 @extends('app')
 
 @section('content')
-    <style>
-            html, body {
-                height: 100%;
-            }
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-            p {
-                font-size : 16px;
-                font-weight: bold;
-            }
-        </style>
-
-<div class="container">
-    <div class="content">
-        <div class="title">Welcome!</div>
+<div class="main-container">
+    <div class="main-content">
+        <div class="main-title">Digital Leave Behinds</div>
     </div>
-    <p id="poweredBy">@{{ text }}</p>
+</div>
+
+<div class="row">
+    <div class='col-md-6'>
+        <a class="btn btn-primary" href="http://laravel-vue.app/view-leave-behinds" role="button">View Created Leave Behinds</a>
+        <a class="btn btn-primary" href="http://laravel-vue.app/create-leave-behind" role="button">Create New Leave Behind</a>
+    </div>
 </div>
 
 @stop
